@@ -380,15 +380,6 @@ template {
   --theme-menu-active-color: #999999;
   --theme-submenu-background-color: #dddddd;
   --theme-submenu-text-color: #111111;
-  --theme-top-background-color: #ffffff;
-  --theme-top-text-color: #111111;
-  --theme-top-link-color: #999999;
-  --theme-top-link-hover-color: #bbbbbb;
-  --theme-footer-background-color: #ffffff;
-  --theme-footer-text-color: #111111;
-  --theme-footer-heading-color: #111111;
-  --theme-footer-link-color: #111111;
-  --theme-footer-link-hover-color: #999999;
 }
 
 /**
@@ -919,34 +910,6 @@ img.alignnone {
 /**
  * Header
  */
-.topbar {
-  padding: 10px 0;
-  background-color: var(--theme-top-background-color);
-  color: var(--theme-top-text-color);
-  overflow: hidden;
-}
-.topbar .inner-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: none;
-}
-.topbar a {
-  color: var(--theme-top-link-color);
-}
-.topbar a:hover, .topbar a:focus {
-  color: var(--theme-top-link-hover-color);
-}
-.topbar .widget-area {
-  width: 100%;
-  padding: 0 10px;
-}
-.topbar .widget-area .widget-title {
-  color: var(--theme-top-text-color);
-}
-.topbar .widget-area .widget:last-child {
-  margin-bottom: 0;
-}
-
 .site-mainbar {
   position: relative;
   z-index: 200;
@@ -1890,19 +1853,6 @@ abbr.required {
   color: var(--theme-footer-heading-color);
 }
 
-.footer-widgets {
-  padding: 40px 0;
-  overflow: hidden;
-}
-.footer-widgets .inner-wrap {
-  display: flex;
-  flex-wrap: wrap;
-}
-.footer-widgets .widget-area {
-  flex: 0 0 auto;
-  width: 100%;
-}
-
 .site-info {
   font-size: 0.75rem;
   /* 12px */
@@ -2135,24 +2085,6 @@ p > video {
   }
   .gallery-columns-9 .gallery-item {
     flex-basis: 11.1111111111%;
-  }
-  .topbar-widget-areas-1 .topbar .widget-area {
-    width: 100%;
-  }
-  .topbar-widget-areas-2 .topbar .widget-area {
-    width: 50%;
-    padding: 0 10px;
-  }
-  .footer-widget-areas-1 .footer-widgets .widget-area {
-    width: 100%;
-  }
-  .footer-widget-areas-2 .footer-widgets .widget-area,
-  .footer-widget-areas-3 .footer-widgets .widget-area,
-  .footer-widget-areas-4 .footer-widgets .widget-area,
-  .footer-widget-areas-5 .footer-widgets .widget-area,
-  .footer-widget-areas-6 .footer-widgets .widget-area {
-    width: 50%;
-    padding: 0 10px;
   }
 }
 /**

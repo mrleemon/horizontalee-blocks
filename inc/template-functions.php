@@ -70,12 +70,6 @@ function theme_body_classes( $classes ) {
 		$classes[] = apply_filters( 'default_sidebar_layout_class', 'sidebar-layout-' . sanitize_html_class( get_theme_mod( 'default_sidebar_layout', 'none' ) ) );
 	}
 
-	// Add topbar widget areas class.
-	$classes[] = 'topbar-widget-areas-' . sanitize_html_class( get_theme_mod( 'topbar_widget_areas', 0 ) );
-
-	// Add footer widget areas class.
-	$classes[] = 'footer-widget-areas-' . sanitize_html_class( get_theme_mod( 'footer_widget_areas', 4 ) );
-
 	return $classes;
 }
 add_filter( 'body_class', 'theme_body_classes' );

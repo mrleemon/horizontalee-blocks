@@ -29,16 +29,7 @@
 			'menu_background_active_color',
 			'menu_active_color',
 			'submenu_text_color',
-			'submenu_background_color',
-			'top_background_color',
-			'top_text_color',
-			'top_link_color',
-			'top_link_hover_color',
-			'footer_background_color',
-			'footer_text_color',
-			'footer_heading_color',
-			'footer_link_color',
-			'footer_link_hover_color'
+			'submenu_background_color'
 		];
 
 	// Generate the CSS for the current Color Scheme.

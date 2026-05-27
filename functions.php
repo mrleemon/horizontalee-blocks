@@ -135,58 +135,6 @@ function theme_content_width() {
 add_action( 'after_setup_theme', 'theme_content_width', 0 );
 
 /**
- * Register widget area.
- *
- * @link https://codex.wordpress.org/Function_Reference/register_sidebar
- */
-function theme_widgets_init() {
-	register_sidebar(
-		array(
-			'name'          => __( 'Sidebar', 'theme' ),
-			'id'            => 'sidebar',
-			'description'   => __( 'Add widgets here to appear in your sidebar.', 'theme' ),
-			'before_widget' => '<section id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</section>',
-			'before_title'  => '<h2 class="widget-title">',
-			'after_title'   => '</h2>',
-		)
-	);
-	$topbar_widget_areas = get_theme_mod( 'topbar_widget_areas', 0 );
-	for ( $i = 1; $i <= $topbar_widget_areas; $i++ ) {
-		register_sidebar(
-			array(
-				/* translators: %d: topbar widget area number. */
-				'name'          => sprintf( __( 'Top Bar %d', 'theme' ), $i ),
-				'id'            => 'top-' . $i,
-				/* translators: %d: topbar widget area number. */
-				'description'   => sprintf( __( 'Add widgets here to appear in your top %d.', 'theme' ), $i ),
-				'before_widget' => '<section id="%1$s" class="widget %2$s">',
-				'after_widget'  => '</section>',
-				'before_title'  => '<h2 class="widget-title">',
-				'after_title'   => '</h2>',
-			)
-		);
-	}
-	$footer_widget_areas = get_theme_mod( 'footer_widget_areas', 4 );
-	for ( $i = 1; $i <= $footer_widget_areas; $i++ ) {
-		register_sidebar(
-			array(
-				/* translators: %d: footer widget area number. */
-				'name'          => sprintf( __( 'Footer %d', 'theme' ), $i ),
-				'id'            => 'footer-' . $i,
-				/* translators: %d: footer widget area number. */
-				'description'   => sprintf( __( 'Add widgets here to appear in your footer %d.', 'theme' ), $i ),
-				'before_widget' => '<section id="%1$s" class="widget %2$s">',
-				'after_widget'  => '</section>',
-				'before_title'  => '<h2 class="widget-title">',
-				'after_title'   => '</h2>',
-			)
-		);
-	}
-}
-add_action( 'widgets_init', 'theme_widgets_init' );
-
-/**
  * JavaScript Detection.
  *
  * Adds a `js` class to the root `<html>` element when JavaScript is detected.
@@ -322,15 +270,6 @@ function theme_block_editor_styles() {
 		'menu_active_color'             => get_theme_mod( 'menu_active_color', '#999999' ),
 		'submenu_text_color'            => get_theme_mod( 'submenu_text_color', '#111111' ),
 		'submenu_background_color'      => get_theme_mod( 'submenu_background_color', '#dddddd' ),
-		'top_background_color'          => get_theme_mod( 'top_background_color', '#ffffff' ),
-		'top_text_color'                => get_theme_mod( 'top_text_color', '#111111' ),
-		'top_link_color'                => get_theme_mod( 'top_link_color', '#999999' ),
-		'top_link_hover_color'          => get_theme_mod( 'top_link_hover_color', '#bbbbbb' ),
-		'footer_background_color'       => get_theme_mod( 'footer_background_color', '#ffffff' ),
-		'footer_text_color'             => get_theme_mod( 'footer_text_color', '#111111' ),
-		'footer_heading_color'          => get_theme_mod( 'footer_heading_color', '#111111' ),
-		'footer_link_color'             => get_theme_mod( 'footer_link_color', '#111111' ),
-		'footer_link_hover_color'       => get_theme_mod( 'footer_link_hover_color', '#999999' ),
 	);
 
 	$color_scheme_css = theme_get_color_scheme_css( $colors );

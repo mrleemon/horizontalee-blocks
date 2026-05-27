@@ -98,43 +98,6 @@ function theme_customize_register( $wp_customize ) {
 		)
 	);
 
-	// Add topbar section.
-	$wp_customize->add_section(
-		'topbar',
-		array(
-			'title'       => __( 'Top Bar', 'theme' ),
-			'panel'       => 'layout',
-			'description' => __( 'Customize the look & feel of your website topbar area.', 'theme' ),
-		)
-	);
-
-	// Add topbar widget areas setting and control.
-	$wp_customize->add_setting(
-		'topbar_widget_areas',
-		array(
-			'default'           => '0',
-			'sanitize_callback' => 'theme_sanitize_select_field',
-		)
-	);
-
-	$wp_customize->add_control(
-		new WP_Customize_Control(
-			$wp_customize,
-			'topbar_widget_areas',
-			array(
-				'label'    => __( 'Number of widget areas', 'theme' ),
-				'section'  => 'topbar',
-				'settings' => 'topbar_widget_areas',
-				'type'     => 'select',
-				'choices'  => array(
-					'0' => _x( 'None', 'Number of widget areas', 'theme' ),
-					'1' => _x( 'One', 'Number of widget areas', 'theme' ),
-					'2' => _x( 'Two', 'Number of widget areas', 'theme' ),
-				),
-			)
-		)
-	);
-
 	// Add header section.
 	$wp_customize->add_section(
 		'header',
@@ -426,37 +389,6 @@ function theme_customize_register( $wp_customize ) {
 		)
 	);
 
-	// Add footer widget areas setting and control.
-	$wp_customize->add_setting(
-		'footer_widget_areas',
-		array(
-			'default'           => '4',
-			'sanitize_callback' => 'theme_sanitize_select_field',
-		)
-	);
-
-	$wp_customize->add_control(
-		new WP_Customize_Control(
-			$wp_customize,
-			'footer_widget_areas',
-			array(
-				'label'    => __( 'Number of widget areas', 'theme' ),
-				'section'  => 'footer',
-				'settings' => 'footer_widget_areas',
-				'type'     => 'select',
-				'choices'  => array(
-					'0' => _x( 'None', 'Number of widget areas', 'theme' ),
-					'1' => _x( 'One', 'Number of widget areas', 'theme' ),
-					'2' => _x( 'Two', 'Number of widget areas', 'theme' ),
-					'3' => __( 'Three', 'theme' ),
-					'4' => __( 'Four', 'theme' ),
-					'5' => __( 'Five', 'theme' ),
-					'6' => __( 'Six', 'theme' ),
-				),
-			)
-		)
-	);
-
 	// Add footer text setting and control.
 	$wp_customize->add_setting(
 		'footer_text',
@@ -714,101 +646,6 @@ function theme_customize_register( $wp_customize ) {
 			array(
 				'label'   => __( 'Text Hover Color', 'theme' ),
 				'section' => 'button_colors',
-			)
-		)
-	);
-
-	// Add top bar colors section.
-	$wp_customize->add_section(
-		'top_colors',
-		array(
-			'title'       => __( 'Top Bar', 'theme' ),
-			'panel'       => 'colors',
-			'description' => __( 'Customize the colors of your website top bar area.', 'theme' ),
-		)
-	);
-
-	// Add custom top background color setting and control.
-	$wp_customize->add_setting(
-		'top_background_color',
-		array(
-			'default'           => '#ffffff',
-			'sanitize_callback' => 'theme_sanitize_rgba_color',
-			'transport'         => 'postMessage',
-		)
-	);
-
-	$wp_customize->add_control(
-		new Customize_Alpha_Color_Control(
-			$wp_customize,
-			'top_background_color',
-			array(
-				'label'        => __( 'Background Color', 'theme' ),
-				'section'      => 'top_colors',
-				'show_opacity' => true,
-			)
-		)
-	);
-
-	// Add custom top text color setting and control.
-	$wp_customize->add_setting(
-		'top_text_color',
-		array(
-			'default'           => '#111111',
-			'sanitize_callback' => 'sanitize_hex_color',
-			'transport'         => 'postMessage',
-		)
-	);
-
-	$wp_customize->add_control(
-		new WP_Customize_Color_Control(
-			$wp_customize,
-			'top_text_color',
-			array(
-				'label'   => __( 'Text Color', 'theme' ),
-				'section' => 'top_colors',
-			)
-		)
-	);
-
-	// Add custom top link color setting and control.
-	$wp_customize->add_setting(
-		'top_link_color',
-		array(
-			'default'           => '#111111',
-			'sanitize_callback' => 'sanitize_hex_color',
-			'transport'         => 'postMessage',
-		)
-	);
-
-	$wp_customize->add_control(
-		new WP_Customize_Color_Control(
-			$wp_customize,
-			'top_link_color',
-			array(
-				'label'   => __( 'Link Color', 'theme' ),
-				'section' => 'top_colors',
-			)
-		)
-	);
-
-	// Add custom top link hover color setting and control.
-	$wp_customize->add_setting(
-		'top_link_hover_color',
-		array(
-			'default'           => '#999999',
-			'sanitize_callback' => 'sanitize_hex_color',
-			'transport'         => 'postMessage',
-		)
-	);
-
-	$wp_customize->add_control(
-		new WP_Customize_Color_Control(
-			$wp_customize,
-			'top_link_hover_color',
-			array(
-				'label'   => __( 'Link Hover Color', 'theme' ),
-				'section' => 'top_colors',
 			)
 		)
 	);
@@ -1086,122 +923,6 @@ function theme_customize_register( $wp_customize ) {
 			)
 		)
 	);
-
-	// Add footer colors section.
-	$wp_customize->add_section(
-		'footer_colors',
-		array(
-			'title'       => __( 'Footer', 'theme' ),
-			'panel'       => 'colors',
-			'description' => __( 'Customize the colors of your website footer area.', 'theme' ),
-		)
-	);
-
-	// Add custom footer background color setting and control.
-	$wp_customize->add_setting(
-		'footer_background_color',
-		array(
-			'default'           => '#ffffff',
-			'sanitize_callback' => 'theme_sanitize_rgba_color',
-			'transport'         => 'postMessage',
-		)
-	);
-
-	$wp_customize->add_control(
-		new Customize_Alpha_Color_Control(
-			$wp_customize,
-			'footer_background_color',
-			array(
-				'label'        => __( 'Background Color', 'theme' ),
-				'section'      => 'footer_colors',
-				'show_opacity' => true,
-			)
-		)
-	);
-
-	// Add custom footer text color setting and control.
-	$wp_customize->add_setting(
-		'footer_text_color',
-		array(
-			'default'           => '#111111',
-			'sanitize_callback' => 'sanitize_hex_color',
-			'transport'         => 'postMessage',
-		)
-	);
-
-	$wp_customize->add_control(
-		new WP_Customize_Color_Control(
-			$wp_customize,
-			'footer_text_color',
-			array(
-				'label'   => __( 'Text Color', 'theme' ),
-				'section' => 'footer_colors',
-			)
-		)
-	);
-
-	// Add custom footer heading color setting and control.
-	$wp_customize->add_setting(
-		'footer_heading_color',
-		array(
-			'default'           => '#111111',
-			'sanitize_callback' => 'sanitize_hex_color',
-			'transport'         => 'postMessage',
-		)
-	);
-
-	$wp_customize->add_control(
-		new WP_Customize_Color_Control(
-			$wp_customize,
-			'footer_heading_color',
-			array(
-				'label'   => __( 'Heading Color', 'theme' ),
-				'section' => 'footer_colors',
-			)
-		)
-	);
-
-	// Add custom footer link color setting and control.
-	$wp_customize->add_setting(
-		'footer_link_color',
-		array(
-			'default'           => '#111111',
-			'sanitize_callback' => 'sanitize_hex_color',
-			'transport'         => 'postMessage',
-		)
-	);
-
-	$wp_customize->add_control(
-		new WP_Customize_Color_Control(
-			$wp_customize,
-			'footer_link_color',
-			array(
-				'label'   => __( 'Link Color', 'theme' ),
-				'section' => 'footer_colors',
-			)
-		)
-	);
-
-	// Add custom footer link hover color setting and control.
-	$wp_customize->add_setting(
-		'footer_link_hover_color',
-		array(
-			'default'           => '#999999',
-			'sanitize_callback' => 'sanitize_hex_color',
-			'transport'         => 'postMessage',
-		)
-	);
-
-	$wp_customize->add_control(
-		new WP_Customize_Color_Control(
-			$wp_customize,
-			'footer_link_hover_color',
-			array(
-				'label'   => __( 'Link Hover Color', 'theme' ),
-				'section' => 'footer_colors',
-			)
-		)
-	);
 }
 add_action( 'customize_register', 'theme_customize_register', 11 );
 
@@ -1367,15 +1088,6 @@ function theme_color_scheme_css() {
 		'menu_active_color'             => get_theme_mod( 'menu_active_color', '#999999' ),
 		'submenu_text_color'            => get_theme_mod( 'submenu_text_color', '#111111' ),
 		'submenu_background_color'      => get_theme_mod( 'submenu_background_color', '#dddddd' ),
-		'top_background_color'          => get_theme_mod( 'top_background_color', '#ffffff' ),
-		'top_text_color'                => get_theme_mod( 'top_text_color', '#111111' ),
-		'top_link_color'                => get_theme_mod( 'top_link_color', '#999999' ),
-		'top_link_hover_color'          => get_theme_mod( 'top_link_hover_color', '#bbbbbb' ),
-		'footer_background_color'       => get_theme_mod( 'footer_background_color', '#ffffff' ),
-		'footer_text_color'             => get_theme_mod( 'footer_text_color', '#111111' ),
-		'footer_heading_color'          => get_theme_mod( 'footer_heading_color', '#111111' ),
-		'footer_link_color'             => get_theme_mod( 'footer_link_color', '#111111' ),
-		'footer_link_hover_color'       => get_theme_mod( 'footer_link_hover_color', '#999999' ),
 	);
 
 	$color_scheme_css = theme_get_color_scheme_css( $colors );
@@ -1508,15 +1220,6 @@ function theme_get_color_scheme_css( $colors ) {
 			'menu_active_color'             => '',
 			'submenu_text_color'            => '',
 			'submenu_background_color'      => '',
-			'top_background_color'          => '',
-			'top_text_color'                => '',
-			'top_link_color'                => '',
-			'top_link_hover_color'          => '',
-			'footer_background_color'       => '',
-			'footer_text_color'             => '',
-			'footer_heading_color'          => '',
-			'footer_link_color'             => '',
-			'footer_link_hover_color'       => '',
 		)
 	);
 
@@ -1548,15 +1251,6 @@ function theme_get_color_scheme_css( $colors ) {
         --theme-menu-active-color: {$colors['menu_active_color']};
         --theme-submenu-text-color: {$colors['submenu_text_color']};
         --theme-submenu-background-color: {$colors['submenu_background_color']};
-        --theme-top-background-color: {$colors['top_background_color']};
-        --theme-top-text-color: {$colors['top_text_color']};
-        --theme-top-link-color: {$colors['top_link_color']};
-        --theme-top-link-hover-color: {$colors['top_link_hover_color']};
-        --theme-footer-background-color: {$colors['footer_background_color']};
-        --theme-footer-text-color: {$colors['footer_text_color']};
-        --theme-footer-heading-color: {$colors['footer_heading_color']};
-        --theme-footer-link-color: {$colors['footer_link_color']};
-        --theme-footer-link-hover-color: {$colors['footer_link_hover_color']};
     }
 
 CSS;
@@ -1597,15 +1291,6 @@ function theme_color_scheme_css_template() {
 		'menu_active_color'             => '{{ data.menu_active_color }}',
 		'submenu_text_color'            => '{{ data.submenu_text_color }}',
 		'submenu_background_color'      => '{{ data.submenu_background_color }}',
-		'top_background_color'          => '{{ data.top_background_color }}',
-		'top_text_color'                => '{{ data.top_text_color }}',
-		'top_link_color'                => '{{ data.top_link_color }}',
-		'top_link_hover_color'          => '{{ data.top_link_hover_color }}',
-		'footer_background_color'       => '{{ data.footer_background_color }}',
-		'footer_text_color'             => '{{ data.footer_text_color }}',
-		'footer_heading_color'          => '{{ data.footer_heading_color }}',
-		'footer_link_color'             => '{{ data.footer_link_color }}',
-		'footer_link_hover_color'       => '{{ data.footer_link_hover_color }}',
 	);
 	?>
 	<script type="text/html" id="tmpl-theme-color-scheme">
