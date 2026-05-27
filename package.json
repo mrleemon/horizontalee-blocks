@@ -1,0 +1,28 @@
+{
+    "name": "horizontalee",
+    "author": "Oscar Ciutat",
+    "version": "3.0.0",
+    "license": "GPL-2.0-or-later",
+    "devDependencies": {
+        "autoprefixer": "^10.5.0",
+        "dir-archiver": "^3.0.1",
+        "nodemon": "^3.1.14",
+        "postcss": "8.5.15",
+        "postcss-cli": "^11.0.1",
+        "sass": "^1.100.0",
+        "terser": "^5.48.0"
+    },
+    "browserslist": [
+        "> 0.5%"
+    ],
+    "scripts": {
+        "css:base": "sass --style expanded --no-source-map assets/sass/style.scss style.css && postcss style.css --no-map --use autoprefixer -o style.css",
+        "css:blocks": "sass --style expanded --no-source-map assets/sass/blocks.scss assets/css/blocks.css && postcss assets/css/blocks.css --no-map --use autoprefixer -o assets/css/blocks.css",
+        "css:editor": "sass --style expanded --no-source-map assets/sass/style-editor.scss assets/css/style-editor.css && postcss assets/css/style-editor.css --no-map --use autoprefixer -o assets/css/style-editor.css",
+        "css:shop": "sass --style expanded --no-source-map assets/sass/woocommerce.scss assets/css/woocommerce.css && postcss assets/css/woocommerce.css --no-map --use autoprefixer -o assets/css/woocommerce.css",
+        "css": "npm run css:base && npm run css:blocks && npm run css:editor && npm run css:shop",
+        "terser": "terser assets/js/customize-color-control.js -c -m -o assets/js/customize-color-control.min.js && terser assets/js/customize-preview.js -c -m -o assets/js/customize-preview.min.js && terser assets/js/functions.js -c -m -o assets/js/functions.min.js && terser assets/js/navigation.js -c -m -o assets/js/navigation.min.js && terser assets/js/scroll-to-top.js -c -m -o assets/js/scroll-to-top.min.js",
+        "watch": "nodemon -e scss -x \"npm run css\"",
+        "bundle": "dir-archiver --includebasedir --src . --dest ../horizontalee.zip --exclude .git .gitattributes .gitignore node_modules package-lock.json package.json"
+    }
+}

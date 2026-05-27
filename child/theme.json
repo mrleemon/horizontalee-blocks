@@ -1,0 +1,40 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"layout": {
+            "contentSize": "",
+			"wideSize": ""
+        }
+	},
+	"styles": {
+		"color": {
+		},
+		"typography": {
+		},
+		"elements": {
+			"button": {
+			},
+			"caption": {
+			},
+			"heading": {
+			},
+			"h1": {
+			},
+			"h2": {
+			},
+			"h3": {
+			},
+			"h4": {
+			},
+			"h5": {
+			},
+			"h6": {
+			},
+			"link": {
+			}
+		},
+		"blocks": {
+		}
+	}
+}

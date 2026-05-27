@@ -1,0 +1,638 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Horizontalee\n"
+"POT-Creation-Date: 2026-02-23 17:01+0100\n"
+"PO-Revision-Date: 2026-02-23 17:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: .git\n"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! La página no existe."
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location."
+msgstr "Parece que no hay nada en este lugar."
+
+#: comments.php:32
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un comentario en &ldquo;%1$s&rdquo;"
+
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s comentario en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
+
+#: comments.php:51 comments.php:74
+msgid "Older Comments"
+msgstr "Comentarios antiguos"
+
+#: comments.php:52 comments.php:75
+msgid "Newer Comments"
+msgstr "Comentarios recientes"
+
+#: comments.php:86
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: functions.php:36 template-parts/header/header-navigation.php:13
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: functions.php:37 template-parts/header/header-navigation.php:38
+msgid "Additional Menu"
+msgstr "Menú adicional"
+
+#: functions.php:145 inc/customizer.php:211
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:147
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Añade widgets aquí para que aparezcan en la barra lateral."
+
+#: functions.php:159
+#, php-format
+msgid "Top Bar %d"
+msgstr "Barra superior %d"
+
+#: functions.php:162
+#, php-format
+msgid "Add widgets here to appear in your top %d."
+msgstr "Añade widgets aquí para que aparezcan en el área superior %d."
+
+#: functions.php:175
+#, php-format
+msgid "Footer %d"
+msgstr "Pie %d"
+
+#: functions.php:178
+#, php-format
+msgid "Add widgets here to appear in your footer %d."
+msgstr "Añade widgets aquí para que aparezcan en el pie %d."
+
+#: functions.php:282 inc/template-tags.php:335
+msgid "Expand child menu"
+msgstr "Expandir el submenú"
+
+#: functions.php:283
+msgid "Collapse child menu"
+msgstr "Contraer el submenú"
+
+#: header.php:28
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: inc/customizer.php:66
+msgid "Display Site Title"
+msgstr "Muestra el título del sitio"
+
+#: inc/customizer.php:85
+msgid "Display Site Tagline"
+msgstr "Muestra la descripción corta del sitio"
+
+#: inc/customizer.php:96 inc/customizer.php:325
+msgid "Layout"
+msgstr "Diseño"
+
+#: inc/customizer.php:105 inc/customizer.php:725
+msgid "Top Bar"
+msgstr "Barra superior"
+
+#: inc/customizer.php:107
+msgid "Customize the look & feel of your website topbar area."
+msgstr "Personaliza el aspecto de la barra superior de tu web."
+
+#: inc/customizer.php:125 inc/customizer.php:443
+msgid "Number of widget areas"
+msgstr "Número de áreas de widgets"
+
+#: inc/customizer.php:130 inc/customizer.php:448
+msgctxt "Number of widget areas"
+msgid "None"
+msgstr "Ninguna"
+
+#: inc/customizer.php:131 inc/customizer.php:449
+msgctxt "Number of widget areas"
+msgid "One"
+msgstr "Una"
+
+#: inc/customizer.php:132 inc/customizer.php:450
+msgctxt "Number of widget areas"
+msgid "Two"
+msgstr "Dos"
+
+#: inc/customizer.php:142 inc/customizer.php:820
+msgid "Header"
+msgstr "Cabecera"
+
+#: inc/customizer.php:144
+msgid "Customize the look & feel of your website header area."
+msgstr "Personaliza el aspecto de la cabecera de tu web."
+
+#: inc/customizer.php:162
+msgid "Header Layout"
+msgstr "Diseño de la cabecera"
+
+#: inc/customizer.php:163
+msgid "Applied to the header on wide screens only."
+msgstr "Aplicado únicamente a la cabecera en pantallas grandes."
+
+#: inc/customizer.php:168
+msgid "Logo on the left and menu on the right"
+msgstr "El logo en la izquierda y el menú en la derecha"
+
+#: inc/customizer.php:169
+msgid "Logo and menu on the left"
+msgstr "El logo y el menú en la izquierda"
+
+#: inc/customizer.php:170
+msgid "Logo and menu aligned on the left"
+msgstr "El logo y el menú alineados en la izquierda"
+
+#: inc/customizer.php:171
+msgid "Logo and menu on the center"
+msgstr "El logo y el menú en el centro"
+
+#: inc/customizer.php:172
+msgid "Logo and menu aligned on the center"
+msgstr "El logo y el menú alineados en el centro"
+
+#: inc/customizer.php:173
+msgid "Logo and menu on the right"
+msgstr "El logo y el menú en la derecha"
+
+#: inc/customizer.php:174
+msgid "Logo and menu aligned on the right"
+msgstr "El logo y el menú alineados en la derecha"
+
+#: inc/customizer.php:175
+msgid "Logo on the right and menu on the left"
+msgstr "El logo en la derecha y el menú en la izquierda"
+
+#: inc/customizer.php:195
+msgid "Enable sticky header"
+msgstr "Activar cabecera fija"
+
+#: inc/customizer.php:196
+msgid "Checking this will make the header stick to the top."
+msgstr ""
+"Si marcas esta casilla la cabecera quedará fijada en la parte superior."
+
+#: inc/customizer.php:213
+msgid "Customize the look & feel of your website sidebar area."
+msgstr "Personaliza el aspecto de la barra lateral de tu web."
+
+#: inc/customizer.php:231
+msgid "Front Page"
+msgstr "Página de inicio"
+
+#: inc/customizer.php:232 inc/customizer.php:260 inc/customizer.php:288
+msgid "Applied on wide screens only."
+msgstr "Aplicado únicamente en pantallas grandes."
+
+#: inc/customizer.php:237 inc/customizer.php:265 inc/customizer.php:293
+msgid "No sidebar"
+msgstr "Sin barra lateral"
+
+#: inc/customizer.php:238 inc/customizer.php:266 inc/customizer.php:294
+msgid "Sidebar on the left"
+msgstr "Barra lateral en la izquierda"
+
+#: inc/customizer.php:239 inc/customizer.php:267 inc/customizer.php:295
+msgid "Sidebar on the right"
+msgstr "Barra lateral en la derecha"
+
+#: inc/customizer.php:259
+msgid "Blog Page"
+msgstr "Página del blog"
+
+#: inc/customizer.php:287
+msgid "Default"
+msgstr "Predeterminado"
+
+#: inc/customizer.php:305
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/customizer.php:307
+msgid "Customize the look & feel of your website blog area."
+msgstr "Personaliza el aspecto del blog de tu web."
+
+#: inc/customizer.php:326
+msgid "Layout for posts on your blog and archive pages."
+msgstr "Diseño de las entradas en las páginas de blog y archivo."
+
+#: inc/customizer.php:331
+msgid "List"
+msgstr "Lista"
+
+#: inc/customizer.php:332
+msgid "Grid"
+msgstr "Cuadrícula"
+
+#: inc/customizer.php:352
+msgid "Thumbnails Per Row"
+msgstr "Miniaturas por fila"
+
+#: inc/customizer.php:353
+msgid "Number of thumbnails per row on grid pages."
+msgstr "Número de miniaturas por fila en las páginas de cuadrícula."
+
+#: inc/customizer.php:358
+msgctxt "Number of thumbnails"
+msgid "Unlimited"
+msgstr "IIlimitadas"
+
+#: inc/customizer.php:359
+msgctxt "Number of thumbnails"
+msgid "One"
+msgstr "Una"
+
+#: inc/customizer.php:360
+msgctxt "Number of thumbnails"
+msgid "Two"
+msgstr "Dos"
+
+#: inc/customizer.php:361 inc/customizer.php:451
+msgid "Three"
+msgstr "Tres"
+
+#: inc/customizer.php:362 inc/customizer.php:452
+msgid "Four"
+msgstr "Cuatro"
+
+#: inc/customizer.php:363 inc/customizer.php:453
+msgid "Five"
+msgstr "Cinco"
+
+#: inc/customizer.php:364 inc/customizer.php:454
+msgid "Six"
+msgstr "Seis"
+
+#: inc/customizer.php:385
+msgid "Thumbnail Size"
+msgstr "Tamaño de las miniaturas"
+
+#: inc/customizer.php:386
+msgid "Size of thumbnails on grid pages."
+msgstr "Tamaño de las miniaturas en las páginas de cuadrícula."
+
+#: inc/customizer.php:409
+msgid "Default Thumbnail"
+msgstr "Miniatura predeterminada"
+
+#: inc/customizer.php:410
+msgid "Posts with no featured image will use this on grid pages."
+msgstr ""
+"Las entradas sin imagen destacada usarán esto en las páginas de cuadrícula."
+
+#: inc/customizer.php:423 inc/customizer.php:1094
+msgid "Footer"
+msgstr "Pie de página"
+
+#: inc/customizer.php:425
+msgid "Customize the look & feel of your website footer area."
+msgstr "Personaliza el aspecto del pie de página de tu web."
+
+#: inc/customizer.php:475
+msgid "Text"
+msgstr "Texto"
+
+#: inc/customizer.php:476
+msgid "Shortcodes and some HTML tags are permitted."
+msgstr "Se permiten shortcodes y algunas etiquetas HTML."
+
+#: inc/customizer.php:496
+msgid "Display \"Scroll To Top\" Button"
+msgstr "Muestra el botón «Volver arriba»"
+
+#: inc/customizer.php:507
+msgid "Colors"
+msgstr "Colores"
+
+#: inc/customizer.php:516
+msgid "Content"
+msgstr "Contenido"
+
+#: inc/customizer.php:518
+msgid "Customize the colors of your website main content area."
+msgstr "Personaliza los colores del área de contenido principal de tu web."
+
+#: inc/customizer.php:537 inc/customizer.php:652 inc/customizer.php:746
+#: inc/customizer.php:841 inc/customizer.php:1115
+msgid "Background Color"
+msgstr "Color de fondo"
+
+#: inc/customizer.php:558 inc/customizer.php:694 inc/customizer.php:768
+#: inc/customizer.php:863 inc/customizer.php:1137
+msgid "Text Color"
+msgstr "Color de texto"
+
+#: inc/customizer.php:579 inc/customizer.php:1158
+msgid "Heading Color"
+msgstr "Color de los encabezados"
+
+#: inc/customizer.php:600 inc/customizer.php:789 inc/customizer.php:884
+#: inc/customizer.php:1179
+msgid "Link Color"
+msgstr "Color de los enlaces"
+
+#: inc/customizer.php:621 inc/customizer.php:810 inc/customizer.php:905
+#: inc/customizer.php:1200
+msgid "Link Hover Color"
+msgstr "Color de los enlaces al pasar el cursor"
+
+#: inc/customizer.php:631
+msgid "Buttons"
+msgstr "Botones"
+
+#: inc/customizer.php:633
+msgid "Customize the colors of your website buttons."
+msgstr "Personaliza los colores de los botones de tu web."
+
+#: inc/customizer.php:673
+msgid "Background Hover Color"
+msgstr "Color de fondo al pasar el cursor"
+
+#: inc/customizer.php:715
+msgid "Text Hover Color"
+msgstr "Color de texto al pasar el cursor"
+
+#: inc/customizer.php:727
+msgid "Customize the colors of your website top bar area."
+msgstr "Personaliza los colores de la barra superior de tu web."
+
+#: inc/customizer.php:822
+msgid "Customize the colors of your website header area."
+msgstr "Personaliza los colores de la cabecera de tu web."
+
+#: inc/customizer.php:915 template-parts/header/header-menu-toggle.php:14
+msgid "Menu"
+msgstr "Menú"
+
+#: inc/customizer.php:917
+msgid "Customize the colors of your website menu area."
+msgstr "Personaliza los colores del menú de tu web."
+
+#: inc/customizer.php:936
+msgid "Menu Item Background Color"
+msgstr "Color de fondo de los elementos del menú"
+
+#: inc/customizer.php:957
+msgid "Menu Item Color"
+msgstr "Color de los elementos del menú"
+
+#: inc/customizer.php:978
+msgid "Menu Item Background Hover Color"
+msgstr "Color de fondo de los elementos del menú al pasar el cursor"
+
+#: inc/customizer.php:999
+msgid "Menu Item Hover Color"
+msgstr "Color de los elementos del menú al pasar el cursor"
+
+#: inc/customizer.php:1020
+msgid "Menu Item Background Active Color"
+msgstr "Color de fondo de los elementos activos del menú"
+
+#: inc/customizer.php:1041
+msgid "Menu Item Active Color"
+msgstr "Color de los elementos activos del menú"
+
+#: inc/customizer.php:1062
+msgid "Submenu Background Color"
+msgstr "Color de fondo de los submenús"
+
+#: inc/customizer.php:1084
+msgid "Submenu Item Color"
+msgstr "Color de los elementos de los submenús"
+
+#: inc/customizer.php:1096
+msgid "Customize the colors of your website footer area."
+msgstr "Personaliza los colores del pie de página de tu web."
+
+#: inc/template-functions.php:145
+msgctxt "label"
+msgid "Search for:"
+msgstr "Buscar:"
+
+#: inc/template-functions.php:146
+msgctxt "placeholder"
+msgid "Search&hellip;"
+msgstr "Buscar&hellip;"
+
+#: inc/template-functions.php:148 inc/woocommerce.php:371
+msgctxt "submit button"
+msgid "Search"
+msgstr "Buscar"
+
+#: inc/template-functions.php:168
+msgid "Scroll To Top"
+msgstr "Volver arriba"
+
+#: inc/template-tags.php:32
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Publicado el"
+
+#: inc/template-tags.php:43
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Autor"
+
+#: inc/template-tags.php:49 inc/template-tags.php:59
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:54
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Categorías"
+
+#: inc/template-tags.php:64
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: inc/template-tags.php:77
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Tamaño completo"
+
+#: inc/template-tags.php:88
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Deja un comentario<span class=\"screen-reader-text\"> en %s</span>"
+
+#: inc/template-tags.php:226 template-parts/content/content-page.php:48
+#: template-parts/content/content-search.php:40
+#: template-parts/content/content-search.php:58
+#: template-parts/content/content.php:70
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/template-tags.php:242
+msgctxt "Previous set of posts"
+msgid "Previous"
+msgstr "Anteriores"
+
+#: inc/template-tags.php:243
+msgctxt "Next set of posts"
+msgid "Next"
+msgstr "Siguientes"
+
+#: inc/template-tags.php:257 template-parts/content/content-page.php:35
+#: template-parts/content/content.php:55
+msgid "Page"
+msgstr "Página"
+
+#: inc/template-tags.php:419
+msgid "Copyright Year"
+msgstr "Año del copyright"
+
+#: inc/template-tags.php:423
+#, php-format
+msgid "&copy; %1$s %2$s. All Rights Reserved."
+msgstr "&copy; %1$s %2$s. Todos los derechos reservados."
+
+#: inc/template-tags.php:433
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: inc/template-tags.php:442
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/template-tags.php:445 template-parts/footer/footer-site-info.php:21
+msgid "https://wordpress.org/"
+msgstr "https://es.wordpress.org/"
+
+#: inc/template-tags.php:445 template-parts/footer/footer-site-info.php:24
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Funciona gracias a %s"
+
+#: inc/woocommerce.php:197
+msgid "Out of stock"
+msgstr "Agotado"
+
+#: inc/woocommerce.php:270
+#, php-format
+msgid "%1$d item in cart"
+msgid_plural "%1$d items in cart"
+msgstr[0] "%1$d artículo en el carrito"
+msgstr[1] "%1$d artículos en el carrito"
+
+#: inc/woocommerce.php:369
+msgid "Search for:"
+msgstr "Buscar:"
+
+#: inc/woocommerce.php:370
+msgid "Search products&hellip;"
+msgstr "Buscar productos&hellip;"
+
+#: search.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda: %s"
+
+#: single.php:33
+msgid "Next"
+msgstr "Siguiente"
+
+#: single.php:34
+msgid "Next post:"
+msgstr "Entrada siguiente:"
+
+#: single.php:36
+msgid "Previous"
+msgstr "Anterior"
+
+#: single.php:37
+msgid "Previous post:"
+msgstr "Entrada anterior:"
+
+#: template-parts/content/content-none.php:15
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: template-parts/content/content-none.php:26
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</"
+"a>."
+
+#: template-parts/content/content-none.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Lo siento, tu búsqueda no ha devuelto ningún resultado. Por favor, inténtalo "
+"de nuevo usando palabras diferentes."
+
+#: template-parts/content/content-none.php:46
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Parece que no hemos podido encontrar lo que buscas."
+
+#: template-parts/content/content-page.php:31
+#: template-parts/content/content.php:51
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: template-parts/content/content.php:38
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Seguir leyendo<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. Theme Name of the plugin/theme
+msgid "Horizontalee"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Horizontalee is a lightweight, responsive and highly flexible WordPress "
+"theme based on the underscores framework. It features multiple widget areas, "
+"navigation menus at the top and more. It has been written from ground up "
+"with SEO in mind, is compatible with the block editor and follows the latest "
+"web standards. With its minimalistic approach and lots of customization "
+"options, it enables you to build almost any type of website such as a blog, "
+"a portfolio, a corporate site or an online shop."
+msgstr ""
+"Horizontalee es un tema de WordPress ligero, adaptable y muy flexible basado "
+"en el framework underscores. Cuenta con múltiples áreas de widgets, menús de "
+"navegación en la parte superior y mucho más. Desarrollado desde cero con el "
+"SEO en mente, es compatible con el editor de bloques y sigue los estándares "
+"web más recientes. Su enfoque minimalista y sus múltiples opciones de "
+"personalización te permiten construir casi cualquier tipo de web como un "
+"blog, un porfolio, una web corporativa o una tienda virtual."
+
+#. Author of the plugin/theme
+msgid "Oscar Ciutat"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://oscarciutat.com/code/"
+msgstr ""

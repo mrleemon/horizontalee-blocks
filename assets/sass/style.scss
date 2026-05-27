@@ -1,0 +1,56 @@
+/*
+Theme Name: Horizontalee
+Update URI: false
+Author: Oscar Ciutat
+Author URI: https://oscarciutat.com/code/
+Description: Horizontalee is a lightweight, responsive and highly flexible WordPress theme based on the underscores framework. It features multiple widget areas, navigation menus at the top and more. It has been written from ground up with SEO in mind, is compatible with the block editor and follows the latest web standards. With its minimalistic approach and lots of customization options, it enables you to build almost any type of website such as a blog, a portfolio, a corporate site or an online shop.
+Version: 3.0
+Requires at least: 7.0
+Tested up to: 7.0
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: block-styles, blog, custom-colors, custom-logo, custom-menu, e-commerce, footer-widgets, left-sidebar, photography, portfolio, right-sidebar, theme-options, translation-ready, threaded-comments, two-columns 
+Text Domain: theme
+Domain Path: /languages
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+
+/**
+ * Table of Contents
+ *
+ * Reset
+ * Customizer
+ * Colors
+ * Typography
+ * Elements
+ * Forms
+ * Navigation
+ *      Links
+ *      Menus
+ * Accessibility
+ * Alignments
+ * Header
+ * Widgets
+ * Content
+ *      Posts and pages
+ *      Grid
+ *      Comments
+ * Footer
+ * Media
+ *      Captions
+ *      Galleries
+ * Media Queries
+ *      Mobile Large
+ *      Tablet Small
+ *      Tablet Large
+ *      Desktop Small
+ *      Desktop Medium
+ *      Desktop Large
+ */
+@use 'vendor/normalize';
+@use 'partial/customizer';
+@use 'partial/variables';
+@use 'partial/base';
