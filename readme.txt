@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: block-styles, blog, custom-colors, custom-logo, custom-menu, e-commerce, footer-widgets, left-sidebar, photography, portfolio, right-sidebar, theme-options, translation-ready, threaded-comments, two-columns 
 
 == Description ==
-Horizontalee is a lightweight, responsive and highly flexible WordPress theme based on the underscores framework. It features multiple widget areas, navigation menus at the top and more. It has been written from ground up with SEO in mind, is compatible with the block editor and follows the latest web standards. With its minimalistic approach and lots of customization options, it enables you to build almost any type of website such as a blog, a portfolio, a corporate site or an online shop.
+Horizontalee is a lightweight, responsive and highly flexible WordPress theme based on the underscores framework. It features multiple template parts, navigation menus at the top and more. It has been written from ground up with SEO in mind, is compatible with the block editor and follows the latest web standards. With its minimalistic approach and lots of customization options, it enables you to build almost any type of website such as a blog, a portfolio, a corporate site or an online shop.
 
 == Installation ==
 
