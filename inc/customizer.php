@@ -41,14 +41,6 @@ function theme_customize_register( $wp_customize ) {
 				'render_callback'     => 'theme_customize_partial_blogdescription',
 			)
 		);
-		$wp_customize->selective_refresh->add_partial(
-			'footer_text',
-			array(
-				'selector'            => '.footer-text',
-				'container_inclusive' => false,
-				'render_callback'     => 'theme_customize_partial_footer_text',
-			)
-		);
 	}
 
 	// Add display site title setting and control.
@@ -386,30 +378,6 @@ function theme_customize_register( $wp_customize ) {
 			'title'       => __( 'Footer', 'theme' ),
 			'panel'       => 'layout',
 			'description' => __( 'Customize the look & feel of your website footer area.', 'theme' ),
-		)
-	);
-
-	// Add footer text setting and control.
-	$wp_customize->add_setting(
-		'footer_text',
-		array(
-			'default'           => '',
-			'transport'         => 'postMessage',
-			'sanitize_callback' => 'theme_sanitize_html_text_field',
-		)
-	);
-
-	$wp_customize->add_control(
-		new WP_Customize_Control(
-			$wp_customize,
-			'footer_text',
-			array(
-				'label'       => __( 'Text', 'theme' ),
-				'description' => __( 'Shortcodes and some HTML tags are permitted.', 'theme' ),
-				'section'     => 'footer',
-				'settings'    => 'footer_text',
-				'type'        => 'textarea',
-			)
 		)
 	);
 
@@ -1043,15 +1011,6 @@ function theme_customize_partial_blogname() {
  */
 function theme_customize_partial_blogdescription() {
 	bloginfo( 'description' );
-}
-
-/**
- * Render the footer text for the selective refresh partial.
- *
- * @return void
- */
-function theme_customize_partial_footer_text() {
-	echo wp_kses_post( get_theme_mod( 'footer_text' ) );
 }
 
 /**

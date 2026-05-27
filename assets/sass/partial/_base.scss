@@ -1646,21 +1646,6 @@ abbr.required {
 	}
 }
 
-.site-info {
-	font-size: 0.75rem;
-	/* 12px */
-	line-height: 1.5;
-	text-align: center;
-
-	span[role=separator] {
-		padding: 0 0.25em 0 0.5em;
-	}
-
-	span[role=separator]::before {
-		content: '\002f';
-	}
-}
-
 .scroll-to-top {
 	position: fixed;
 	bottom: 30px;
@@ -2169,10 +2154,6 @@ p> {
 			width: math.percentage(math.div(1, $i));
 			padding: 0 10px;
 		}
-	}
-
-	.site-info {
-		padding: 1em 0;
 	}
 
 }

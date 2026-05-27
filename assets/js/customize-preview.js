@@ -56,13 +56,6 @@
 		});
 	});
 
-	// Footer.
-	api('footer_text', function (value) {
-		value.bind(function (to) {
-			document.querySelector('.footer-text').innerHTML = to;
-		});
-	});
-
 	// Color Scheme CSS.
 	api.bind('preview-ready', function () {
 		api.preview.bind('update-color-scheme-css', function (css) {

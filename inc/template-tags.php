@@ -402,14 +402,6 @@ function theme_comment_reply_link_args( $args ) {
 add_filter( 'comment_reply_link_args', 'theme_comment_reply_link_args' );
 
 /**
- * Displays the footer text.
- */
-function theme_footer_text() {
-	$footer_text = get_theme_mod( 'footer_text' );
-	echo wp_kses_post( do_shortcode( $footer_text ) );
-}
-
-/**
  * Registers block bindings.
  */
 function theme_register_block_bindings() {
