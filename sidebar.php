@@ -19,7 +19,7 @@
 
 			<?php do_action( 'theme_sidebar_top' ); ?>
 
-			<?php dynamic_sidebar( 'sidebar' ); ?>
+			<?php block_template_part( 'sidebar' ); ?>
 
 			<?php do_action( 'theme_sidebar_bottom' ); ?>
 

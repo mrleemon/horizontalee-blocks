@@ -34,8 +34,8 @@
 		<?php do_action( 'theme_mainbar_top' ); ?>
 
 		<?php
-		// Include the top bar template.
-		get_template_part( 'template-parts/header/header', 'topbar' );
+		// Include the header template part.
+		block_template_part( 'header' );
 		?>
 
 		<header id="masthead" class="site-header">

@@ -22,11 +22,8 @@
 		<?php do_action( 'theme_footer_top' ); ?>
 
 		<?php
-		// Include the footer widgets template.
-		get_template_part( 'template-parts/footer/footer', 'widgets' );
-
-		// Include the site info template.
-		get_template_part( 'template-parts/footer/footer', 'site-info' );
+		// Include the footer template part.
+		block_template_part( 'footer' );
 		?>
 
 		<?php do_action( 'theme_footer_bottom' ); ?>
