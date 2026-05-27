@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Horizontalee\n"
-"POT-Creation-Date: 2026-02-23 17:01+0100\n"
+"POT-Creation-Date: 2026-05-27 23:54+0200\n"
 "PO-Revision-Date: 2018-10-13 17:27+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -63,39 +63,11 @@ msgstr ""
 msgid "Additional Menu"
 msgstr ""
 
-#: functions.php:145 inc/customizer.php:211
-msgid "Sidebar"
-msgstr ""
-
-#: functions.php:147
-msgid "Add widgets here to appear in your sidebar."
-msgstr ""
-
-#: functions.php:159
-#, php-format
-msgid "Top Bar %d"
-msgstr ""
-
-#: functions.php:162
-#, php-format
-msgid "Add widgets here to appear in your top %d."
-msgstr ""
-
-#: functions.php:175
-#, php-format
-msgid "Footer %d"
-msgstr ""
-
-#: functions.php:178
-#, php-format
-msgid "Add widgets here to appear in your footer %d."
-msgstr ""
-
-#: functions.php:282 inc/template-tags.php:335
+#: functions.php:230 inc/template-tags.php:335
 msgid "Expand child menu"
 msgstr ""
 
-#: functions.php:283
+#: functions.php:231
 msgid "Collapse child menu"
 msgstr ""
 
@@ -103,348 +75,305 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: inc/customizer.php:66
+#: inc/customizer.php:58
 msgid "Display Site Title"
 msgstr ""
 
-#: inc/customizer.php:85
+#: inc/customizer.php:77
 msgid "Display Site Tagline"
 msgstr ""
 
-#: inc/customizer.php:96 inc/customizer.php:325
+#: inc/customizer.php:88 inc/customizer.php:280
 msgid "Layout"
 msgstr ""
 
-#: inc/customizer.php:105 inc/customizer.php:725
-msgid "Top Bar"
-msgstr ""
-
-#: inc/customizer.php:107
-msgid "Customize the look & feel of your website topbar area."
-msgstr ""
-
-#: inc/customizer.php:125 inc/customizer.php:443
-msgid "Number of widget areas"
-msgstr ""
-
-#: inc/customizer.php:130 inc/customizer.php:448
-msgctxt "Number of widget areas"
-msgid "None"
-msgstr ""
-
-#: inc/customizer.php:131 inc/customizer.php:449
-msgctxt "Number of widget areas"
-msgid "One"
-msgstr ""
-
-#: inc/customizer.php:132 inc/customizer.php:450
-msgctxt "Number of widget areas"
-msgid "Two"
-msgstr ""
-
-#: inc/customizer.php:142 inc/customizer.php:820
+#: inc/customizer.php:97 inc/customizer.php:625
 msgid "Header"
 msgstr ""
 
-#: inc/customizer.php:144
+#: inc/customizer.php:99
 msgid "Customize the look & feel of your website header area."
 msgstr ""
 
-#: inc/customizer.php:162
+#: inc/customizer.php:117
 msgid "Header Layout"
 msgstr ""
 
-#: inc/customizer.php:163
+#: inc/customizer.php:118
 msgid "Applied to the header on wide screens only."
 msgstr ""
 
-#: inc/customizer.php:168
+#: inc/customizer.php:123
 msgid "Logo on the left and menu on the right"
 msgstr ""
 
-#: inc/customizer.php:169
+#: inc/customizer.php:124
 msgid "Logo and menu on the left"
 msgstr ""
 
-#: inc/customizer.php:170
+#: inc/customizer.php:125
 msgid "Logo and menu aligned on the left"
 msgstr ""
 
-#: inc/customizer.php:171
+#: inc/customizer.php:126
 msgid "Logo and menu on the center"
 msgstr ""
 
-#: inc/customizer.php:172
+#: inc/customizer.php:127
 msgid "Logo and menu aligned on the center"
 msgstr ""
 
-#: inc/customizer.php:173
+#: inc/customizer.php:128
 msgid "Logo and menu on the right"
 msgstr ""
 
-#: inc/customizer.php:174
+#: inc/customizer.php:129
 msgid "Logo and menu aligned on the right"
 msgstr ""
 
-#: inc/customizer.php:175
+#: inc/customizer.php:130
 msgid "Logo on the right and menu on the left"
 msgstr ""
 
-#: inc/customizer.php:195
+#: inc/customizer.php:150
 msgid "Enable sticky header"
 msgstr ""
 
-#: inc/customizer.php:196
+#: inc/customizer.php:151
 msgid "Checking this will make the header stick to the top."
 msgstr ""
 
-#: inc/customizer.php:213
+#: inc/customizer.php:166
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer.php:168
 msgid "Customize the look & feel of your website sidebar area."
 msgstr ""
 
-#: inc/customizer.php:231
+#: inc/customizer.php:186
 msgid "Front Page"
 msgstr ""
 
-#: inc/customizer.php:232 inc/customizer.php:260 inc/customizer.php:288
+#: inc/customizer.php:187 inc/customizer.php:215 inc/customizer.php:243
 msgid "Applied on wide screens only."
 msgstr ""
 
-#: inc/customizer.php:237 inc/customizer.php:265 inc/customizer.php:293
+#: inc/customizer.php:192 inc/customizer.php:220 inc/customizer.php:248
 msgid "No sidebar"
 msgstr ""
 
-#: inc/customizer.php:238 inc/customizer.php:266 inc/customizer.php:294
+#: inc/customizer.php:193 inc/customizer.php:221 inc/customizer.php:249
 msgid "Sidebar on the left"
 msgstr ""
 
-#: inc/customizer.php:239 inc/customizer.php:267 inc/customizer.php:295
+#: inc/customizer.php:194 inc/customizer.php:222 inc/customizer.php:250
 msgid "Sidebar on the right"
 msgstr ""
 
-#: inc/customizer.php:259
+#: inc/customizer.php:214
 msgid "Blog Page"
 msgstr ""
 
-#: inc/customizer.php:287
+#: inc/customizer.php:242
 msgid "Default"
 msgstr ""
 
-#: inc/customizer.php:305
+#: inc/customizer.php:260
 msgid "Blog"
 msgstr ""
 
-#: inc/customizer.php:307
+#: inc/customizer.php:262
 msgid "Customize the look & feel of your website blog area."
 msgstr ""
 
-#: inc/customizer.php:326
+#: inc/customizer.php:281
 msgid "Layout for posts on your blog and archive pages."
 msgstr ""
 
-#: inc/customizer.php:331
+#: inc/customizer.php:286
 msgid "List"
 msgstr ""
 
-#: inc/customizer.php:332
+#: inc/customizer.php:287
 msgid "Grid"
 msgstr ""
 
-#: inc/customizer.php:352
+#: inc/customizer.php:307
 msgid "Thumbnails Per Row"
 msgstr ""
 
-#: inc/customizer.php:353
+#: inc/customizer.php:308
 msgid "Number of thumbnails per row on grid pages."
 msgstr ""
 
-#: inc/customizer.php:358
+#: inc/customizer.php:313
 msgctxt "Number of thumbnails"
 msgid "Unlimited"
 msgstr ""
 
-#: inc/customizer.php:359
+#: inc/customizer.php:314
 msgctxt "Number of thumbnails"
 msgid "One"
 msgstr ""
 
-#: inc/customizer.php:360
+#: inc/customizer.php:315
 msgctxt "Number of thumbnails"
 msgid "Two"
 msgstr ""
 
-#: inc/customizer.php:361 inc/customizer.php:451
+#: inc/customizer.php:316
 msgid "Three"
 msgstr ""
 
-#: inc/customizer.php:362 inc/customizer.php:452
+#: inc/customizer.php:317
 msgid "Four"
 msgstr ""
 
-#: inc/customizer.php:363 inc/customizer.php:453
+#: inc/customizer.php:318
 msgid "Five"
 msgstr ""
 
-#: inc/customizer.php:364 inc/customizer.php:454
+#: inc/customizer.php:319
 msgid "Six"
 msgstr ""
 
-#: inc/customizer.php:385
+#: inc/customizer.php:340
 msgid "Thumbnail Size"
 msgstr ""
 
-#: inc/customizer.php:386
+#: inc/customizer.php:341
 msgid "Size of thumbnails on grid pages."
 msgstr ""
 
-#: inc/customizer.php:409
+#: inc/customizer.php:364
 msgid "Default Thumbnail"
 msgstr ""
 
-#: inc/customizer.php:410
+#: inc/customizer.php:365
 msgid "Posts with no featured image will use this on grid pages."
 msgstr ""
 
-#: inc/customizer.php:423 inc/customizer.php:1094
+#: inc/customizer.php:378
 msgid "Footer"
 msgstr ""
 
-#: inc/customizer.php:425
+#: inc/customizer.php:380
 msgid "Customize the look & feel of your website footer area."
 msgstr ""
 
-#: inc/customizer.php:475
-msgid "Text"
-msgstr ""
-
-#: inc/customizer.php:476
-msgid "Shortcodes and some HTML tags are permitted."
-msgstr ""
-
-#: inc/customizer.php:496
+#: inc/customizer.php:396
 msgid "Display \"Scroll To Top\" Button"
 msgstr ""
 
-#: inc/customizer.php:507
+#: inc/customizer.php:407
 msgid "Colors"
 msgstr ""
 
-#: inc/customizer.php:516
+#: inc/customizer.php:416
 msgid "Content"
 msgstr ""
 
-#: inc/customizer.php:518
+#: inc/customizer.php:418
 msgid "Customize the colors of your website main content area."
 msgstr ""
 
-#: inc/customizer.php:537 inc/customizer.php:652 inc/customizer.php:746
-#: inc/customizer.php:841 inc/customizer.php:1115
+#: inc/customizer.php:437 inc/customizer.php:552 inc/customizer.php:646
 msgid "Background Color"
 msgstr ""
 
-#: inc/customizer.php:558 inc/customizer.php:694 inc/customizer.php:768
-#: inc/customizer.php:863 inc/customizer.php:1137
+#: inc/customizer.php:458 inc/customizer.php:594 inc/customizer.php:668
 msgid "Text Color"
 msgstr ""
 
-#: inc/customizer.php:579 inc/customizer.php:1158
+#: inc/customizer.php:479
 msgid "Heading Color"
 msgstr ""
 
-#: inc/customizer.php:600 inc/customizer.php:789 inc/customizer.php:884
-#: inc/customizer.php:1179
+#: inc/customizer.php:500 inc/customizer.php:689
 msgid "Link Color"
 msgstr ""
 
-#: inc/customizer.php:621 inc/customizer.php:810 inc/customizer.php:905
-#: inc/customizer.php:1200
+#: inc/customizer.php:521 inc/customizer.php:710
 msgid "Link Hover Color"
 msgstr ""
 
-#: inc/customizer.php:631
+#: inc/customizer.php:531
 msgid "Buttons"
 msgstr ""
 
-#: inc/customizer.php:633
+#: inc/customizer.php:533
 msgid "Customize the colors of your website buttons."
 msgstr ""
 
-#: inc/customizer.php:673
+#: inc/customizer.php:573
 msgid "Background Hover Color"
 msgstr ""
 
-#: inc/customizer.php:715
+#: inc/customizer.php:615
 msgid "Text Hover Color"
 msgstr ""
 
-#: inc/customizer.php:727
-msgid "Customize the colors of your website top bar area."
-msgstr ""
-
-#: inc/customizer.php:822
+#: inc/customizer.php:627
 msgid "Customize the colors of your website header area."
 msgstr ""
 
-#: inc/customizer.php:915 template-parts/header/header-menu-toggle.php:14
+#: inc/customizer.php:720 template-parts/header/header-menu-toggle.php:14
 msgid "Menu"
 msgstr ""
 
-#: inc/customizer.php:917
+#: inc/customizer.php:722
 msgid "Customize the colors of your website menu area."
 msgstr ""
 
-#: inc/customizer.php:936
+#: inc/customizer.php:741
 msgid "Menu Item Background Color"
 msgstr ""
 
-#: inc/customizer.php:957
+#: inc/customizer.php:762
 msgid "Menu Item Color"
 msgstr ""
 
-#: inc/customizer.php:978
+#: inc/customizer.php:783
 msgid "Menu Item Background Hover Color"
 msgstr ""
 
-#: inc/customizer.php:999
+#: inc/customizer.php:804
 msgid "Menu Item Hover Color"
 msgstr ""
 
-#: inc/customizer.php:1020
+#: inc/customizer.php:825
 msgid "Menu Item Background Active Color"
 msgstr ""
 
-#: inc/customizer.php:1041
+#: inc/customizer.php:846
 msgid "Menu Item Active Color"
 msgstr ""
 
-#: inc/customizer.php:1062
+#: inc/customizer.php:867
 msgid "Submenu Background Color"
 msgstr ""
 
-#: inc/customizer.php:1084
+#: inc/customizer.php:889
 msgid "Submenu Item Color"
 msgstr ""
 
-#: inc/customizer.php:1096
-msgid "Customize the colors of your website footer area."
-msgstr ""
-
-#: inc/template-functions.php:145
+#: inc/template-functions.php:139
 msgctxt "label"
 msgid "Search for:"
 msgstr ""
 
-#: inc/template-functions.php:146
+#: inc/template-functions.php:140
 msgctxt "placeholder"
 msgid "Search&hellip;"
 msgstr ""
 
-#: inc/template-functions.php:148 inc/woocommerce.php:371
+#: inc/template-functions.php:142 inc/woocommerce.php:371
 msgctxt "submit button"
 msgid "Search"
 msgstr ""
 
-#: inc/template-functions.php:168
+#: inc/template-functions.php:162
 msgid "Scroll To Top"
 msgstr ""
 
@@ -505,28 +434,28 @@ msgstr ""
 msgid "Page"
 msgstr ""
 
-#: inc/template-tags.php:419
+#: inc/template-tags.php:411
 msgid "Copyright Year"
 msgstr ""
 
-#: inc/template-tags.php:423
+#: inc/template-tags.php:415
 #, php-format
 msgid "&copy; %1$s %2$s. All Rights Reserved."
 msgstr ""
 
-#: inc/template-tags.php:433
+#: inc/template-tags.php:425
 msgid "Privacy Policy"
 msgstr ""
 
-#: inc/template-tags.php:442
+#: inc/template-tags.php:434
 msgid "WordPress"
 msgstr ""
 
-#: inc/template-tags.php:445 template-parts/footer/footer-site-info.php:21
+#: inc/template-tags.php:437
 msgid "https://wordpress.org/"
 msgstr ""
 
-#: inc/template-tags.php:445 template-parts/footer/footer-site-info.php:24
+#: inc/template-tags.php:437
 #, php-format
 msgid "Proudly powered by %s"
 msgstr ""
@@ -608,8 +537,8 @@ msgstr ""
 #. Description of the plugin/theme
 msgid ""
 "Horizontalee is a lightweight, responsive and highly flexible WordPress "
-"theme based on the underscores framework. It features multiple widget "
-"areas, navigation menus at the top and more. It has been written from "
+"theme based on the underscores framework. It features multiple template "
+"parts, navigation menus at the top and more. It has been written from "
 "ground up with SEO in mind, is compatible with the block editor and "
 "follows the latest web standards. With its minimalistic approach and lots "
 "of customization options, it enables you to build almost any type of "
