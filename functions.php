@@ -103,9 +103,6 @@ function theme_setup() {
 	// Add support for responsive embeds.
 	add_theme_support( 'responsive-embeds' );
 
-	// Add support for selective refresh for widgets.
-	add_theme_support( 'customize-selective-refresh-widgets' );
-
 	// Add support for block template parts.
 	add_theme_support( 'block-template-parts' );
 

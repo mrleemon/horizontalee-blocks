@@ -1043,78 +1043,6 @@ a {
 	text-transform: uppercase;
 }
 
-.widget_calendar {
-	table {
-		margin: 0;
-
-		caption {
-			font-weight: 700;
-			margin: 0 0 1.6em;
-			text-transform: uppercase;
-		}
-
-		td,
-		th {
-			line-height: 2.3333;
-			text-align: center;
-			padding: 0;
-		}
-
-		tbody a {
-			background-color: var(--theme-text-color);
-			color: var(--theme-background-color);
-			display: block;
-			font-weight: 700;
-
-			&:hover,
-			&:focus {
-				background-color: var(--theme-secondary-text-color);
-				color: var(--theme-background-color);
-			}
-		}
-
-		tfoot a {
-			color: var(--theme-text-color);
-		}
-	}
-}
-
-.widget_categories .children,
-.widget_nav_menu .sub-menu,
-.widget_pages .children {
-	margin: 0.7667em 0 0 0.8em;
-	padding-top: 0.7667em;
-}
-
-.widget_recent_entries .post-date {
-	display: block;
-}
-
-.widget_rss {
-	li {
-		margin-bottom: 1.6em;
-
-		&:last-child {
-			margin-bottom: 0;
-		}
-	}
-
-	.rsswidget {
-		font-weight: 700;
-	}
-
-	.rss-date,
-	cite {
-		display: block;
-		font-size: 0.75rem;
-		/* 12px */
-	}
-}
-
-.textwidget> :last-child {
-	margin-bottom: 0;
-}
-
 /**
  * Content
  */
@@ -2143,17 +2071,6 @@ p> {
 	.site-footer {
 		width: 100%;
 		overflow: hidden;
-	}
-
-	.footer-widget-areas-1 .footer-widgets .widget-area {
-		width: 100%;
-	}
-
-	@for $i from 2 through 6 {
-		.footer-widget-areas-#{$i} .footer-widgets .widget-area {
-			width: math.percentage(math.div(1, $i));
-			padding: 0 10px;
-		}
 	}
 
 }

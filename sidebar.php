@@ -1,6 +1,6 @@
 <?php
 /**
- * The sidebar containing the main widget area
+ * The sidebar
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
@@ -15,7 +15,7 @@
 
 		<?php do_action( 'theme_before_sidebar' ); ?>
 	
-		<aside id="secondary" class="sidebar widget-area">
+		<aside id="secondary" class="sidebar">
 
 			<?php do_action( 'theme_sidebar_top' ); ?>
 
