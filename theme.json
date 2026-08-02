@@ -1,5 +1,5 @@
 {
-	"$schema": "https://schemas.wp.org/wp/7.0/theme.json",
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
 	"version": 3,
 	"settings": {
 		"color": {
@@ -80,6 +80,10 @@
 					"fontFamily": "Consolas,Menlo,Monaco,\"SF Mono\",\"DejaVu Sans Mono\",\"Roboto Mono\",\"Courier New\",Courier,monospace"
 				}
 			]
+		},
+		"viewport": {
+			"mobile": "38.75em",
+			"tablet": "55em"
 		},
 		"blocks": {
 			"core/paragraph": {
