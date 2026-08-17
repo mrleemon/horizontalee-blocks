@@ -23,6 +23,6 @@
         "css": "npm run css:base && npm run css:blocks && npm run css:editor && npm run css:shop",
         "terser": "terser assets/js/customize-color-control.js -c -m -o assets/js/customize-color-control.min.js && terser assets/js/customize-preview.js -c -m -o assets/js/customize-preview.min.js && terser assets/js/functions.js -c -m -o assets/js/functions.min.js && terser assets/js/navigation.js -c -m -o assets/js/navigation.min.js && terser assets/js/scroll-to-top.js -c -m -o assets/js/scroll-to-top.min.js",
         "watch": "nodemon -e scss -x \"npm run css\"",
-        "bundle": "dir-archiver --includebasedir --src . --dest ../horizontalee.zip --exclude .git .gitattributes .gitignore node_modules package-lock.json package.json"
+        "bundle": "dir-archiver write --include-base-directory --source . --output ../horizontalee.zip --exclude .git --exclude .gitattributes --exclude .gitignore --exclude node_modules --exclude package-lock.json --exclude package.json"
     }
 }
