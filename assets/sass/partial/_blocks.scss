@@ -11,8 +11,8 @@
 /* Alignments */
 
 .alignwide {
-	margin-left: calc((100% - min(100vw, var(--wp--custom--wide-size))) / 2);
-	margin-right: calc((100% - min(100vw, var(--wp--custom--wide-size))) / 2);
+	margin-left: calc((100% - min(100vw, var(--wp--style--global--wide-size))) / 2);
+	margin-right: calc((100% - min(100vw, var(--wp--style--global--wide-size))) / 2);
 	width: auto;
 }
 
