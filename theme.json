@@ -35,10 +35,6 @@
 				}
 			]
 		},
-		"custom": {
-			"content-size": "100%",
-			"wide-size": "1100px"
-		},
 		"dimensions": {
 			"aspectRatio": true
 		},
