@@ -47,6 +47,16 @@
 	}
 }
 
+/* Sizes */
+
+.size-content {
+	max-width: var(--wp--style--global--content-size);
+}
+
+.size-wide {
+	max-width: var(--wp--style--global--wide-size);
+}
+
 /* Widgets */
 
 .wp-block-categories,
