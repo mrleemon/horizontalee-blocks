@@ -523,9 +523,6 @@ a img {
 .wp-block-separator.is-style-wide {
   max-width: 100%;
 }
-.wp-block-separator:not(.is-style-dots) {
-  height: 2px;
-}
 .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
   width: 100px;
 }
