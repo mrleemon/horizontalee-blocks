@@ -41,10 +41,14 @@
 /* Sizes */
 .size-content {
   max-width: var(--wp--style--global--content-size);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .size-wide {
   max-width: var(--wp--style--global--wide-size);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Widgets */
