@@ -554,10 +554,6 @@ a {
 		max-width: 100%;
 	}
 
-	&:not(.is-style-dots) {
-		height: 2px;
-	}
-
 	&:not(.is-style-wide):not(.is-style-dots) {
 		width: 100px;
 	}

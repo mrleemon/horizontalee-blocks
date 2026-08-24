@@ -668,10 +668,7 @@
 			},
 			"core/separator": {
 				"color": {
-					"background": "var(--theme-border-color)"
-				},
-				"border": {
-					"width": "0"
+					"text": "var(--theme-border-color)"
 				},
 				"spacing": {
 					"margin": {
