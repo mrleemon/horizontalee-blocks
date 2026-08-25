@@ -663,6 +663,9 @@
 				}
 			},
 			"core/separator": {
+				"border": {
+					"color": "var(--theme-border-color)"
+				},
 				"color": {
 					"text": "var(--theme-border-color)"
 				},
