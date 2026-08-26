@@ -664,7 +664,7 @@
 			},
 			"core/separator": {
 				"border": {
-					"color": "var(--theme-border-color)"
+					"color": "currentColor"
 				},
 				"color": {
 					"text": "var(--theme-border-color)"
