@@ -44,7 +44,7 @@ function theme_setup() {
 	 */
 	add_editor_style(
 		array(
-			get_parent_theme_file_uri( 'assets/css/style-editor.css' ),
+			'assets/css/style-editor.css',
 		)
 	);
 
