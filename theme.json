@@ -664,7 +664,9 @@
 			},
 			"core/separator": {
 				"border": {
-					"color": "currentColor"
+					"color": "currentColor",
+					"style": "solid",
+					"width": "1px 0 0"
 				},
 				"color": {
 					"text": "var(--theme-border-color)"
