@@ -229,6 +229,15 @@
 	}
 }
 
+/* Navigation Link (Temporary Fix) */
+
+.wp-block-navigation-link {
+	&.is-style-no-spacing {
+		margin: 0;
+		padding: 0;
+	}
+}
+
 /* Paragraph */
 
 p.has-drop-cap:not(:focus)::first-letter {

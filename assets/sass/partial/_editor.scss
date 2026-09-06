@@ -491,6 +491,15 @@ a {
 	margin-left: 1.3333em;
 }
 
+/* Navigation Link (Temporary Fix) */
+
+.wp-block-navigation-link {
+	&.is-style-no-spacing {
+		margin: 0;
+		padding: 0;
+	}
+}
+
 /* Page List */
 
 .wp-block-page-list {
