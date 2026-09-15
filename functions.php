@@ -39,8 +39,7 @@ function theme_setup() {
 	);
 
 	/*
-	 * This theme styles the visual editor to resemble the theme style,
-	 * specifically font, colors, icons, and column width.
+	 * Add stylesheet to style the editor.
 	 */
 	add_editor_style(
 		array(
