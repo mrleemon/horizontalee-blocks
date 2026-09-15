@@ -1286,7 +1286,7 @@ a.button:hover, a.button:focus {
 .widget {
   margin: 0 auto 3em;
   width: 100%;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 .widget pre {
   line-height: 1.2;
@@ -1432,7 +1432,7 @@ a.post-thumbnail:hover, a.post-thumbnail:focus {
 .entry-summary,
 .page-content,
 .comment-content {
-  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .entry-content li {
