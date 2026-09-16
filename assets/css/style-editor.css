@@ -475,6 +475,11 @@ a img {
   margin-left: 1.3333em;
 }
 
+/* Navigation (Temporary Fix) */
+.wp-block-navigation.is-style-no-spacing {
+  margin: 0;
+}
+
 /* Navigation Link (Temporary Fix) */
 .wp-block-navigation-link.is-style-no-spacing {
   margin: 0;

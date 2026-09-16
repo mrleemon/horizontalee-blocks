@@ -229,6 +229,14 @@
 	}
 }
 
+/* Navigation (Temporary Fix) */
+
+.wp-block-navigation {
+	&.is-style-no-spacing {
+		margin: 0;
+	}
+}
+
 /* Navigation Link (Temporary Fix) */
 
 .wp-block-navigation-link {
