@@ -51,11 +51,6 @@ function theme_body_classes( $classes ) {
 	// Add header layout class.
 	$classes[] = 'header-layout-' . sanitize_html_class( get_theme_mod( 'header_layout', 'left-right' ) );
 
-	// Add a class if there is a custom header.
-	if ( has_header_image() ) {
-		$classes[] = 'has-header-image';
-	}
-
 	// Add a class if the post has a featured image.
 	if ( has_post_thumbnail() ) {
 		$classes[] = 'has-featured-image';

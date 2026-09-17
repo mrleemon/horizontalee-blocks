@@ -42,15 +42,6 @@
 
 			<?php do_action( 'theme_header_top' ); ?>
 
-			<?php
-
-			if ( has_custom_header() ) {
-				// Include the header media.
-				get_template_part( 'template-parts/header/header', 'media' );
-			}
-
-			?>
-
 			<div class="inner-wrap">
 
 				<?php do_action( 'theme_header_wrap_top' ); ?>

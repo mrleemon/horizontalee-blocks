@@ -156,9 +156,6 @@ function theme_customize_register( $wp_customize ) {
 		)
 	);
 
-	// Move core header image control to the header section.
-	$wp_customize->get_control( 'header_image' )->section = 'header';
-
 	// Add sidebar section.
 	$wp_customize->add_section(
 		'sidebar',
